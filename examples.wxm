@@ -1,0 +1,137 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 11.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+[1,2,3];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+[1,2,3] * [2,3,4];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+[1,2,3].[2,3,4];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+[[1,2,3],[2,3,4],[3,4,5]] . [a,b,c];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+f[a]:= a*2;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+f[3];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+[[1],[2],[3]].[a,b,c];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+[1,2,3].[a,b,c];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+[1,[2]];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+[1,2,3][1];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+(1,2,3)[2];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+nth[[1,2,3],1];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+nth([1,2,3],2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+fourth([1,2,3,4,5]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+apropos("part");
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+part([1,2,3],2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+contour_plot (x^2 + y^2, [x, -4, 4], [y, -4, 4]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+apropos("sum");
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+m:[[1,2,3],[2,3,4],[3,4,5]];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+m;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+part(m,[2]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+map(part,m,[1,2,1]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+make_array(1,10);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+array(a,2,3,4);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+a[1,1,1]:8;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+a;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+b[1,2,3]:3;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+b;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+b[1,2,3];
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+m;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+arrayinfo(b);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+arrayinfo(m);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+create_list(i,i,[1,1,1]);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

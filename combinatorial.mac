@@ -1,0 +1,15 @@
+combi(y,x):=
+	factorial(y)/factorial(x)/factorial(y-x);
+
+blks(l,m,n):=
+	l - n*m + n;
+
+combi_nblks(l,m,n):=
+	block([b],
+		b:blks(l,m,n),
+		combi(b,n) );
+
+pr_combi_nblks_mt(l,m,n,p):=
+	block([b],
+		b:blks(l,m,n),
+		combi(b,n)*p^(n*m) );

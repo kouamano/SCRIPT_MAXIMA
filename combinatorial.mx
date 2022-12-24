@@ -1,0 +1,2 @@
+combi(y,x):=
+	factorial(y)/factorial(x)/factorial(y-x);
